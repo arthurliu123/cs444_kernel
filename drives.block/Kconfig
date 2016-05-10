@@ -557,4 +557,9 @@ config BLK_DEV_RSXX
 	  To compile this driver as a module, choose M here: the
 	  module will be called rsxx.
 
+config Jiawei_Disc
+	tristate "Jiawei Ram Disk"
+	help
+	Jiaweis Ramdisk with encryption.
+
 endif # BLK_DEV
